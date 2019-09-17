@@ -1,3 +1,4 @@
-# Sample Bio/Resume
+# WDDM - 113 Applied Web Programming
 
-First activity for applied web programming course, sample resume showing HTML basic structure.
+
+Lecturer: [Rocco Panacci](https://github.com/juneate)
