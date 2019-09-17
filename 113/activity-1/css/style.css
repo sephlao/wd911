@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed',Verdana, sans-serif;
+    background: linear-gradient(rgb(37, 65, 89), rgb(33, 175, 191),rgb(242, 192, 99));
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: .5em;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+    line-height: .5em;
+}
+
+.web-banner {
+    width: 100%;
+}
+
+footer {
+    float: right;
+    font-size: .75rem;
+}
