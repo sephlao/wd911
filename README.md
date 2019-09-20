@@ -1,20 +1,14 @@
-# wddm-f19 Web Design and Development
+# Web Design and Development (WD911)
 
-## Unified Repository for Fall 2019 Classes
+## Mono-repository for classes under WD911 program
 
-Repository Structure
-```
-wddm-f19 (main)
-│   README.md
-│      
-│
-└───113 (Applied Web Programming)
-│   │   activity-1/
-│          
-│    
-│   
-└───114 (Applied Web Design)
-    │   *future-actvity-1
-```
+WD911 (program code) is a one year program offered by Humber College.
+
+To learn more about the program click [here](https://mediaarts.humber.ca/programs/web-design-and-development.html)
+
+### Directory
+
+- [113/](https://sephlao.github.io/wddm-f19/)
+    - [activity-1/](https://sephlao.github.io/wddm-f19/113/activity-1)
 
 Author: Joseph Lao
