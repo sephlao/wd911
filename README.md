@@ -8,7 +8,7 @@ To learn more about the program click [here](https://mediaarts.humber.ca/program
 
 ### Directory
 
-- [113/](https://sephlao.github.io/wddm-f19/)
-    - [activity-1/](https://sephlao.github.io/wddm-f19/113/activity-1)
+- [113/](https://sephlao.github.io/wd911/113)
+    - [activity-1/](https://sephlao.github.io/wd911/113/activity-1)
 
 Author: Joseph Lao
