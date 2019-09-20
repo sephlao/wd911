@@ -1,3 +1,3 @@
 # Sample Bio/Resume
 
-First activity for applied web programming course, sample resume showing HTML basic structure.
+First activity for Applied Web Programming course, sample resume showing HTML basic structure.
