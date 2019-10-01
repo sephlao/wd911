@@ -47,7 +47,6 @@ ul > li {
     background-image: url("../img/header-bg.jpeg");
     background-position: center center;
     background-size: cover;
-    height: 40%;
 }
 
 .banner > .banner-text {
@@ -96,6 +95,10 @@ ul > li {
 .employers {
     background-color: #2690d4;
     color: #ffffff;
+}
+
+.employers h2 {
+    margin: 1em;
 }
 
 .contact {
