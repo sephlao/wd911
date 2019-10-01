@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    width: 70vw;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 2rem;
     background-color: #ffffff;
