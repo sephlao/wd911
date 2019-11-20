@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>ECommerce Checkout</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<body>
-    <!-- <form> -->
-    <h1>Checkout:</h1>
-    <fieldset>
+  <body>
+    <main>
+      <h1>Simple ECommerce</h1>
+      <section id="store">
+        <h2>Store</h2>
         <table>
-            <thead>
-                <tr>
-                    <th>Products</th>
-                    <th>Quantity</th>
-                    <th>Unit Price</th>
-                    <th>Extended Price</th>
-                </tr>
-            </thead>
-            <tbody id="products">
-            </tbody>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Unit Price</th>
+              <th>Quantity in Stock</th>
+            </tr>
+          </thead>
+          <tbody id="products"></tbody>
         </table>
-        <button id="calculate">Calculate</button>
-    </fieldset>
-    <!-- </form> -->
-    <div id="output">
-        <ul>
-            <li>Subtotal:</li>
-            <li>Tax:</li>
-            <li>Total:</li>
-        </ul>
-    </div>
-    <script src="js/main.js" defer></script>
-</body>
-
+      </section>
+      <section id="checkout">
+        <form>
+          <h2>Checkout:</h2>
+          <fieldset>
+            <!-- TODO - update table to divs using grid system -->
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Unit Price</th>
+                  <th>Extended Price</th>
+                </tr>
+              </thead>
+              <tbody id="cart"></tbody>
+            </table>
+          </fieldset>
+        </form>
+      </section>
+      <section id="nvoice">
+        <h2>Invoice</h2>
+        <ul id="output"></ul>
+      </section>
+    </main>
+    <script src="js/main.js?v=1"></script>
+  </body>
 </html>

@@ -1,28 +1,44 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* basic css reset */
+* {
+  margin: 0;
+  padding: 0;
 }
 
-form {
-    width: 50em;
-    margin: 2em auto;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: 1em;
+}
+
+section {
+  margin: 1em;
+  padding: 1em;
+}
+
+tr th,
+tr td {
+  padding: 0 2em;
+}
+
+ul {
+  margin: 1em;
+  list-style: none;
+}
+
+button {
+  padding: .5em;
+}
+
+button#calculate {
+  margin: 1em;
+}
+
+td strong {
+  color: red;
 }
 
 fieldset {
-    padding: 2em;
-}
-
-fieldset input {
-    display: block;
-    margin: 1em 2em;
-}
-
-
-button {
-    margin: 1em 0;
-    padding: .5em;
-    font-size: 1em;
-}
-
-tr th, tr td {
-    padding:0 2em;
+  padding: 1em 0;
 }
