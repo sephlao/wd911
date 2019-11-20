@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 50em;
+    margin: 2em auto;
+}
+
+fieldset {
+    padding: 2em;
+}
+
+fieldset input {
+    display: block;
+    margin: 1em 2em;
+}
+
+
+button {
+    margin: 1em 0;
+    padding: .5em;
+    font-size: 1em;
+}
+
+tr th, tr td {
+    padding:0 2em;
+}
