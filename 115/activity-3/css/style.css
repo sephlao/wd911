@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root .light-theme {
+  --textColor: #36453b;
+  --backgroundColor: #f5f9e9;
+  --borderColor: #596869;
+  --cardBGColor: #c2c1a5;
+}
+:root .dark-theme {
+  --textColor: #f5f9e9;
+  --backgroundColor: #36453b;
+  --borderColor: #596869;
+  --cardBGColor: #515751;
+}
+
+body {
+  font-family: "Raleway", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 10em;
+  padding: 1em;
+}
+
+h1 {
+  margin: 1em;
+}
+
+fieldset {
+  padding: 0.5em;
+}
+
+label,
+input {
+  display: block;
+}
+
+input {
+  margin-bottom: 0.5rem;
+  padding: 0.5em;
+}
+
+button {
+  background-color: var(--cardBGColor);
+  padding: 1em;
+  color: var(--textColor);
+  border: 1px solid var(--textColor);
+  box-shadow: 2px 2px 2px var(--borderColor);
+}
+
+.card-header {
+  display: inline-block;
+}
+
+.theming > label,
+.theming > input {
+  display: inline;
+}
+.theming {
+  text-align: right;
+}
+
+.card {
+  background-color: var(--cardBGColor);
+  box-shadow: 2px 2px 2px var(--borderColor);
+  padding: 1em;
+  margin: 1em;
+}
+
+.card-body {
+  display: none;
+}
+.expanded {
+  margin: 1em;
+  display: block;
+}
+.output {
+  margin: 1em 0;
+}
+
+.output > p {
+  margin: 0 1em;
+}
