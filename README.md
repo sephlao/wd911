@@ -12,5 +12,9 @@ To learn more about the program click [here](https://mediaarts.humber.ca/program
     - [activity-1/](https://sephlao.github.io/wd911/113/activity-1)
 - [114/](https://sephlao.github.io/wd911/114)
     - [new-apple/](https://sephlao.github.io/new-apple/)
+- [115/](https://sephlao.github.io/wd911/115)
+    - [activity-1/](https://sephlao.github.io/wd911/115/activity-1)
+    - [activity-1/](https://sephlao.github.io/wd911/115/activity-2)
+    - [activity-1/](https://sephlao.github.io/wd911/115/activity-3)
 
 Author: Joseph Lao
