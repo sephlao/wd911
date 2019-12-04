@@ -97,15 +97,34 @@ document.getElementById(`do-a6`).addEventListener(`click`, e => {
   let grade1 = parseInt(document.getElementById(`a6-grade1`).value);
   let grade2 = parseInt(document.getElementById(`a6-grade2`).value);
   let grade3 = parseInt(document.getElementById(`a6-grade3`).value);
-  
+
   let average = (grade1 + grade2 + grade3) / 3;
   let status = 'passed';
-  
-  if(average < 50) {
+
+  if (average < 50) {
     const makeup = parseInt(prompt('Enter make-up exam grade'));
-    if(makeup < 65)
+    if (makeup < 65)
       status = 'failed';
   }
-  
+
   document.getElementById(`a6-output`).innerText = `You ${status} the course!`;
+});
+
+/**
+ * activity #7 parcel fee
+ */
+document.getElementById(`do-a7`).addEventListener(`click`, e => {
+  let weight = parseInt(document.getElementById(`a7-weight`).value);
+  let pricePerKg;
+  if (weight < 2.5) {
+    pricePerKg = 3.50
+  } else if (weight > 2.5 && weight < 5) {
+    pricePerKg = 2.85;
+  } else if (weight > 5 && weight < 7) {
+    pricePerKg = 2.45
+  } else {
+    pricePerKg = 3.25;
+  }
+
+  document.getElementById(`a7-output`).innerText = `You parcel fee is ${w(eight * pricePerKg).toFixed(2)}!`;
 });

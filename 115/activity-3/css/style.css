@@ -35,7 +35,7 @@ h1 {
 }
 
 fieldset {
-  padding: 0.5em;
+  padding: 1em;
 }
 
 label,
@@ -46,6 +46,7 @@ input {
 input {
   margin-bottom: 0.5rem;
   padding: 0.5em;
+  width: 20em;
 }
 
 button {
@@ -54,6 +55,8 @@ button {
   color: var(--textColor);
   border: 1px solid var(--textColor);
   box-shadow: 2px 2px 2px var(--borderColor);
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .card-header {
